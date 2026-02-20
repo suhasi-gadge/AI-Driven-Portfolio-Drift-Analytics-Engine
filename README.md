@@ -115,35 +115,28 @@ Using the maximum asset-class drift provides a conservative and operationally in
 ## Repository Structure
 
 portfolio-drift-analytics-engine/
-│
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-│
 ├── assets/
-│   ├── architecture.png
-│   └── erd.png   (later)
-│
+     architecture.png
+     erd.png   (later)
 ├── data/
-│   ├── raw/
-│   ├── staged/
-│   └── mart/
-│
+    raw/
+    staged/
+    mart/
 ├── etl/
-│   ├── extract/
-│   ├── transform/
-│   ├── load/
-│   └── main_pipeline.py
-│
+    extract/
+    transform/
+    load/
+      main_pipeline.py
 ├── warehouse/
-│   ├── schema.sql
-│   ├── dimensions.sql
-│   ├── facts.sql
-│   └── views.sql
-│
+    schema.sql
+    dimensions.sql
+    facts.sql
+    views.sql
 ├── analytics/
-│   ├── sql/
-│   └── notebooks/
-│
-└── dashboards/
-    └── powerbi/
+    sql/
+    notebooks/
+├── dashboards/
+    powerbi/
