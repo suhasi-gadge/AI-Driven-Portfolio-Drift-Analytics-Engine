@@ -88,6 +88,11 @@ Using the maximum asset-class drift provides a conservative and operationally in
 ## System Architecture
 ![Architecture](assets/architecture.png)
 
+### Data Model
+![ERD](assets/erd.png)
+
+See detailed definitions in [Data Dictionary](docs/data_dictionary.md).
+
 ## Expected Business Impact
 
 - Proactive identification of portfolios exceeding risk tolerance.
