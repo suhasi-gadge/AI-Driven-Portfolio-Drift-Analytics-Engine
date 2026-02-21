@@ -1,0 +1,4 @@
+risk_profile_name,target_equity_weight,target_bonds_weight,target_cash_weight
+Conservative,0.35,0.55,0.1
+Moderate,0.6,0.35,0.05
+Aggressive,0.8,0.15,0.05
